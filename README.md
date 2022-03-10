@@ -5,9 +5,12 @@ Script which runs N isolated Jupyter environments in tmux.
 
 Usage:
 
-start:
+- start:
+
 python3 task1_1.py start --num_users={num_users}
-stop:
+- stop:
+
 python3 task1_1.py stop --session_name={session_name} --num={num}
-stop_all:
+- stop_all:
+
 python3 task1_1.py stop_all --session_name='{session_name}'
